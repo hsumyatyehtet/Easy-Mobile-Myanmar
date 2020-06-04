@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/colorText"
+    android:layout_marginStart="@dimen/dimens_4"
+    android:layout_marginEnd="@dimen/dimens_4"
+    android:layout_marginTop="@dimen/dimens_4"
+    android:layout_marginBottom="@dimen/dimens_4"
+    app:cardCornerRadius="@dimen/dimens_4"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rlCategoryImage"
+            android:layout_width="match_parent"
+            android:background="@color/colorText"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/ivHomeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/easy_mobile_cover" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rlCategoryImage"
+            android:background="@color/colorGray50">
+
+            <TextView
+                android:id="@+id/tvHomeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Social Media"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:id="@+id/rlSeeMore"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="See More"
+                    android:id="@+id/tvSeeMore"
+                    android:layout_marginEnd="@dimen/dimens_4"
+                    android:textColor="@color/colorPrimaryText"
+                    android:layout_centerVertical="true"/>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "339024066074",
+    "firebase_url": "https://easy-mobile-5e35b.firebaseio.com",
+    "project_id": "easy-mobile-5e35b",
+    "storage_bucket": "easy-mobile-5e35b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339024066074:android:2c7c6a85162cc018d183a3",
+        "android_client_info": {
+          "package_name": "dev.hmyh.easymobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339024066074-q0hbhhn8b77qlcc1p00ppu0nionbbn7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.hmyh.easymobile",
+            "certificate_hash": "4bfab246db04c7f2104cde99475006cb51c587ab"
+          }
+        },
+        {
+          "client_id": "339024066074-jt0jrion0l7c0v72ukrrckleok3k3g68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGXaKaUNFwfDRKFSDYrP9UvYcCQRVlYBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339024066074-jt0jrion0l7c0v72ukrrckleok3k3g68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

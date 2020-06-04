@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Easy Mobile</string>
+    <string name="tvMenuHome">Home</string>
+    <string name="tvMenuNew">New</string>
+    <string name="tvMenuSave">Save</string>
+</resources>

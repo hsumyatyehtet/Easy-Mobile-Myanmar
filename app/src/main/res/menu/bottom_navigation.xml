@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_gray"
+        android:title="@string/tvMenuHome"
+        android:checked="true" />
+
+    <item
+        android:id="@+id/menu_new"
+        android:icon="@drawable/ic_new_releases_gray"
+        android:title="@string/tvMenuNew"
+        android:checked="true" />
+
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/ic_save_gray"
+        android:title="@string/tvMenuSave"
+        android:checked="true" />
+
+</menu>
